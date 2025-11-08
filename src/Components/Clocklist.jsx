@@ -1,6 +1,6 @@
 import React from 'react';
 import ClockCard from './ClockCard';
-import { useClockContext } from '../Context/ClockContext';
+import { useClockContext } from '../context/ClockContext';
 
 function ClockList() {
   const { defaultClock, clocks } = useClockContext();
